@@ -1,4 +1,17 @@
-body {
+/************** VARIABLES **************/
+
+$font-body: 'Roboto', sans-serif;
+
+/************** CLEAR STYLES **************/
+
+* {
     margin: 0;
     padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    font-family: $font-body;
+    font-weight: normal;
 }
